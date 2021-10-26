@@ -8,20 +8,9 @@ jhipster:
     authentication:
       jwt:
         # secret key which should be base64 encoded and changed in production
-        base64-secret:
+        base64-secret: NzFlZDhjMzA3MTQ1ZGRjMDQ1MmFlNTA2ZGQ4NTlmYmQwYTdlZjI1YjRhOWI1M2ZhZDhmYWY4NzQyYzllNTU4N2VjMzkzMDMxZDg2ODNkYTY0MTExZGUxM2Q1YzFmMGU5NjZhN2U4ZmNjZmU1OTdlZjE5NmJhYTY0ZDQ1MzE0ZjE=
 
 eureka:
   client:
     service-url:
       defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
-spring:
-  security:
-    oauth2:
-      client:
-        provider:
-          oidc:
-            issuer-uri: https://dev-66165763.okta.com/oauth2/default
-        registration:
-          oidc:
-            client-id: 0oa1e0u6dcbM8xBsY5d7
-            client-secret: 79m3P-tCPGZpIYGUboUf8WTFqgWE6_CbloN02t1t
